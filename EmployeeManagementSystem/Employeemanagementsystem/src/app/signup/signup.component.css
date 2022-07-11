@@ -1,0 +1,31 @@
+
+form{
+    width: 80%;
+    background-color: rgb(160, 113, 11);
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    top: 5%;
+}
+.addform{
+    height: 450px;
+    width: 600px;
+}
+/* img{
+    background-color: antiquewhite;
+    
+} */
+label{
+    font-weight: bold;
+}
+h2{
+    border: 3px solid rgb(241, 235, 138);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(238, 231, 165);
+}
+

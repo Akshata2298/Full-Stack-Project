@@ -1,0 +1,36 @@
+<div align="center">
+    <h2> Update Employee Record </h2>
+    <br>
+    <div class="d-flex justify-content-center align-items-center">
+      <img src="assets/images/emp3.jpg" width="600px" height="450px" alt="" class="m-3 bgimg">
+      <div style="background-color: rgb(242, 242, 242);" class="m-3 p-4 addform">
+  <form #updateform="ngForm" (ngSubmit)="updatedata(updateform)">
+    <div class="form-group">
+    <label> EmployeeID : </label>
+    <input type="number" #id (ngModel)="id" name="id" id="id" class="form-class">
+    </div> <br>
+    <div class="form-group">
+    <label> First Name : </label>
+    <input type="text" #firstName (ngModel)="firstName" name="firstName" id="firstName" class="form-class">
+    </div><br>
+    <div class="form-group">
+    <label> Last Name : </label>
+    <input type="text" #lastName (ngModel)="lastName" name="lastName" id="lastName" class="form-class">
+    </div><br>
+    <div class="form-group">
+      <label> Phone No. : </label>
+      <input type="text" #phoneNo (ngModel)="phoneNo" name="phoneNo" id="phoneNo" class="form-class">
+      </div><br>
+      <div class="form-group">
+        <label> EmpSalary : </label>
+        <input type="text" #salary (ngModel)="salary" name="salary" id="salary" class="form-class">
+        </div><br><br>
+    <div class="form-group">
+    <input type="submit" value="Update" class="btn btn-primary w-100">
+    <div>
+      <a routerLink="/services">back</a>
+      </div>
+    </div>
+  </form>
+  </div>
+  </div>

@@ -1,0 +1,33 @@
+<div align="center">
+    <h2 align="center"> Log in </h2>
+    </div>
+          <br>
+          
+    <div class="d-flex justify-content-center align-items-center">
+          <img src="assets/images/img5.jpg" width="600px" height="450px" alt="" class="m-3 bgimg">
+          <div style="background-color: rgb(231, 238, 245);" class="m-3 p-4 addform">
+            <form class="mx-auto row my-5">
+              <form #loginform="ngForm" (ngSubmit)="logindata(loginform)"></form>
+              <div class="form-group col-12">
+              <label class="form-label"> Email Address : </label>
+              <input type="email" class="form-control" autocomplete="off" required>
+              </div> <br>
+              <div class="form-group col-12">
+              <label class="form-label"> Password : </label>
+              <input type="password" class="form-control" maxlength="8" required>
+              </div><br>
+              <div class="form-group">
+                <br>
+                <div>
+                  <a routerLink="/services">
+                <input type="submit" value="Login" class="btn btn-primary w-100">
+                </a>
+              </div>
+                <br>
+                <a routerLink="/home">back</a>
+                
+              </div>
+            </form>
+
+          </div>
+    </div>

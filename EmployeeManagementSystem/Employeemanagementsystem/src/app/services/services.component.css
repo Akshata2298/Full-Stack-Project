@@ -1,0 +1,33 @@
+h4{
+    text-decoration-color: rgb(147, 113, 151);
+    text-align: center;
+    background-color:rgb(221, 179, 149);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    height: 50px;
+    width: 100%;
+    font-weight: bold;
+    border: 3px solid rgb(226, 180, 119);
+    
+}
+a{
+    color: white;
+}
+li{
+    margin: 20px;
+}
+a:hover{
+    color: white;
+}
+nav{
+    padding: 50px;
+    border-radius: 50px;
+}
+div{
+    
+    width: 80%;
+    margin: 10px;
+    margin-top: 0;
+}
+
+

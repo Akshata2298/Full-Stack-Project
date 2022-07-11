@@ -1,0 +1,31 @@
+<div align="center">
+<h2>Employee List</h2>   
+</div>    
+<div align="center" class="container bg-image p-5" style="background-image: url('E:\SpringAngular\EmployeeManagementSystem\Employeemanagementsystem\src\app\view\emp-img2.png');">
+<table class = "table table-striped">
+<thead>
+    <tr>
+        <th> Id </th>
+        <th> FirstName </th>
+        <th> LastName </th>
+        <th> PhoneNo </th>
+        <th> Salary </th>
+    </tr>
+</thead>
+
+<tbody>
+    <tr *ngFor = "let employee of employees">
+        <td> {{ employee.id }} </td>  
+        <td> {{ employee.firstName }} </td>
+        <td> {{ employee.lastName }} </td>
+        <td> {{ employee.phoneNo }} </td>
+        <td> {{ employee.salary }} </td>               
+    </tr>
+</tbody>      
+</table>
+</div>
+
+<router-outlet></router-outlet>
+<div>
+<a routerLink="/services">back</a>
+</div>
